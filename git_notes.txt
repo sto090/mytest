@@ -1,0 +1,42 @@
+pwd _for present working directory
+ls _list the file
+ls -a _list all files
+ls -l _list with lond details
+cd <location> _for change directory
+cd .. _to go to previus folder
+
+mkdir<space>foldername _to make a folder
+
+touch<space>filename.exrention _to only create a file
+
+vim<space>filename.extention _to create and open file
+
+I _to go in insert mode
+esc _to exit insert mode
+/wordname _to find word, n _to go to the next find
+:wq _to write and quit
+
+cat<space>filename _to see the content without opening
+
+mv<space>filename<space>newlocation _to rename and move file
+
+rm<space>filename _to delet a file
+
+rmdir<space>foldername _to delet a folder
+rmdir -r<space>foldername _recursive delet folder
+
+
+---Create a new repository---
+git<space>init _make this folder as repository 
+
+git config --global --list _to see if there is any configuration 
+
+git config --global user.name 'sto090' _to configuer your name 
+git config --global user.email 'shah.swapnil090@gmail.com' _to configuer your email
+git config --global --list _to check the list
+
+git status _gives status of the repository 
+
+---Comit file---
+git add <filename> _adds the files from modefied to staging stage. It will start tracking the file.
+
